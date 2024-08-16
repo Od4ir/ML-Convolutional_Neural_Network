@@ -33,6 +33,9 @@ Verifique a seguir as bibliotecas e outras dependências utilizadas nesse projet
 
 ## 📚 Bibliografia
 - [Dive Into Deep Learning](https://pt.d2l.ai/chapter_linear-networks/index.html);
+- [Convolutional Neural Networks: A Brief History of their Evolution](https://medium.com/appyhigh-technology-blog/convolutional-neural-networks-a-brief-history-of-their-evolution-ee3405568597);
+- [Inception Module Definition](https://deepai.org/machine-learning-glossary-and-terms/inception-module);
+- [ResNet Architeture Explaned](https://medium.com/@siddheshb008/resnet-architecture-explained-47309ea9283d);
 
 
 
