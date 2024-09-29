@@ -75,8 +75,3 @@ Verifique a seguir as bibliotecas e outras dependências utilizadas nesse projet
 - [ResNet Architeture Explaned - Artigo - Medium](https://medium.com/@siddheshb008/resnet-architecture-explained-47309ea9283d);
 - [What are Convolucional Neural Networks (CNNs)? - Vídeo - IBM Technology](https://www.youtube.com/watch?v=QzY57FaENXg);
 - [Convolutional Neural Networkds (CNNs) explained - Vídeo - deeplizard](https://www.youtube.com/watch?v=YRhxdVk_sIs&t=19s);
-
-
-
-
-#
