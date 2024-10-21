@@ -1,16 +1,30 @@
 # 🌟 Redes Neurais Convolucionais 🌟
 
-Implementação do modelo de Redes Neurais Convolucionais (Convolutional Neural Networks - CNN). As CNN são um tipo de modelo de ML comum em tarefas de reconhecimento de padrões e imagens. Elas aplicam diferentes transformações e filtros nas imagens de entrada que tornam sua 'compreensão' dos elementos mais complexa, auxiliando no reconhecimento de padrões.
+Implementação do modelo de Redes Neurais Convolucionais (Convolutional Neural Networks - CNN) e do modelo Multilayer Perceptron (MLP) para efeitos comparativos usando o dataset `fashion mnist`.
+
+As CNN são um tipo de modelo de ML comum em tarefas de reconhecimento de padrões e imagens. Elas aplicam diferentes transformações e filtros nas imagens de entrada que tornam sua 'compreensão' dos elementos mais complexa, auxiliando no reconhecimento de padrões.
+
+Já MLP é um modelo mais simples em comparação, que conta com várias camadas de perceptrons que transformam também os dados, aplicam uma função de ativação para garantir não linearidade e produzem o resultado na camada final; 
 
 <!-- omit in toc -->
 ## 🔍 Índice
+- [🗣️ Explicação da Comparação](#️-explicação-da-comparação)
 - [🌟 Códigos e Arquivos:](#-códigos-e-arquivos)
 - [⚙️ Instalação](#️-instalação)
 - [☑️ Dependências](#️-dependências)
 - [📚 Bibliografia](#-bibliografia)
 
+## 🗣️ Explicação da Comparação:
+
+Para a comparação entre os dois modelos, fiz algumas alterações no dataset **fashion_mnist**, gerando 3 datasets diferentes e rodei os modelos com diferentes arquoiteturas para avalir a acurácia obtida. O objetivo era comprovar a capacidade superior da CNN em classificar melhor as imagens. Para informações mais detalhadas, consulte esta [apresentação](#);
+
 ## 🌟 Códigos e Arquivos:
 Este repositório conta com:
+- `1_Teoria_CNN.ipynb` - Um JN com a historicidade das CNNs;
+- `2_Teoria_CNN.ipynb` - Um JN com explicações teóricas sobre as operações da CNN;
+- `CNN.ipynb` - Implementação de diferentes arquiteturas de CNN para o dataset **fashion mnist**;
+- `MLP.ipynb` - Implementação de diferentes arquiteturas de MLP para o dataset **fashion mnist**;
+- `Comparacao_MLP_CNN.pdf` - Apresentação em PDF de mais detalhes das arquiteturas testadas;
 
 ## ⚙️ Instalação
 Para clonar este repositório localmente, siga os passos abaixo:
@@ -55,7 +69,7 @@ Caso falte alguma durante as execuções, basta instalar com o:
 ```bash
 pip install <nome_da_biblioteca>
 ```
-
+Para rodar os JN basta escolher o ambiente `d2l` criado e rodar normalmente. 
 
 ## ☑️ Dependências e Ferramentas:
 Verifique a seguir as bibliotecas e outras dependências utilizadas nesse projeto. Certifique-se de ter as essas dependências instaladas no seu ambiente:
